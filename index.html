@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+        <meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  			<meta http-equiv="x-ua-compatible" content="ie=edge">
+  			<link rel="stylesheet" href="css/bootstrap.min.css">
+				<title>Witcher 3 Quiz</title>
+	</head>
+  <body>
+	<div class="container">
+  		<div class="row">
+  			<div class="col">
+					<h1>How much do you know about <cite>The Witcher 3</cite>?</h1>
+					<p>First published during the '90s, Polish book series <cite>The Witcher</cite> follows the adventures of monster slayer Geralt of Rivia, his long-term lover and powerful sorceress Yennefer of Vengerberg and their adopted daughter Ciri, whose magic-infused birth granted her the ability to warp space and time. After the books garnered a cult following throughout Eastern Europe, Polish game development studio CD Projekt Red obtained the rights to convert pages to pixels in 2003. Following two successful prequels, <cite> The Witcher 3: Wild Hunt </cite> received universal critical acclaim. Fans regard the third installment as a seminal work within the role-playing game genre for its compelling story, engrossing gameplay and detailed settings.</p>
+					<p> Want to test your <i>Witcher</i> knowledge? Take the quiz below!</p>
+
+					<p><i>The information on this site, including the quiz answers, is sourced from the game's <a href="https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt" target=blank>Wikipedia</a> page.</i></p>
+
+  					<form id="myForm" action="js/form_processor.js" method="post">
+									<!-- first question -->
+									<div class="form-group">
+										<label class="form-control-label" for="form-q1">What year did CD Projekt Red release <cite>The Witcher 3</cite>?</label>
+										<input class="form-control" type="text" name="year" id="form-q1" placeholder="Year">
+									</div>
+
+									<!-- second question -->
+									<div class="form-group">
+									<label class="form-control-label" for="form-q2">Who authored the book series that the game adapted?</label>
+										<input class="form-control" type="text" name="author" id="form-q2" placeholder="Author name">
+									</div>
+
+									<!-- third question -->
+									<div class="form-group">
+									<label class="form-control-label" for="form-q3">Why did the writers emphasize <b>moral ambiguity</b> in the game’s narrative?</label>
+							    	<textarea class="form-control" name="morals" id="form-q3" rows="3" placeholder="Hint: Copy the full sentence that lists three reasons."></textarea>
+									</div>
+
+									<!-- fourth question -->
+									<div class="form-group">
+										<label>Which company <b>published</b> <cite>The Witcher 3</cite>?</label>
+
+									<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" name="publisher" value="Electronic Arts"> Electronic Arts
+									</label>
+									</div>	<!-- option 1 -->
+
+									<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" name="publisher" value="Blizzard Entertainment"> Blizzard Entertainment
+									</label>
+									</div>	<!-- option 2 -->
+
+									<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" name="publisher" value="Ubisoft">
+										Ubisoft
+									</label>
+								 </div>	<!-- option 3 -->
+
+								 <div class="form-check">
+								 <label class="form-check-label">
+									 <input class="form-check-input" type="radio" name="publisher" value="CD Projekt">
+									 CD Projekt
+								 </label>
+							 	</div>	<!-- option 4 -->
+
+							</div><!-- form group -->
+
+									<!-- fifth question -->
+									<div class="form-group">
+									  <label>What locales does the player visit during the game’s main storyline? Check all that apply.</label>
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Kaer Morhen"> Kaer Morhen
+									  </label>
+									</div> <!-- option 1 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Mahakam"> Mahakam
+									  </label>
+									</div> <!-- option 2 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Lofoten">Lofoten
+									  </label>
+									</div> <!-- option 3 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Dunwall"> Dunwall
+									  </label>
+									</div> <!-- option 4 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Nazair"> Nazair
+									  </label>
+									</div> <!-- option 5 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Skellige"> Skellige
+									  </label>
+									</div> <!-- option 6 -->
+
+									<div class="form-check">
+									  <label class="form-check-label">
+									  <input class="form-check-input" type="checkbox" name="locales" value="Vizima"> Vizima
+									  </label>
+									</div> <!-- option 7 -->
+
+									</div> <!-- form group -->
+
+										<!-- sixth question -->
+										<div class="form-group">
+										<label class="form-control-label" for="form-q6">Geralt romances several characters throughout <cite>The Witcher</cite> series, but who represents his one true love both in the game and the books?</label>
+											<select class="form-control" name="lovers" id="form-q6">
+											<option value="Sigi">Sigismund Dijkstra</option>
+											<option value="Paramour">Fringilla Vigo</option>
+											<option value="Predator">Triss Merigold</option>
+											<option value="Yennefer of Vengerberg">Yennefer of Vengerberg</option>
+											<option value="Acquaintance">Keira Metz</option>
+											<option value="Regicide">Philippa Eilhart</option>
+											</select>
+										</div>
+
+									 <!-- end of quiz-->
+
+									 <button class="btn btn-dark" type="submit">Check my work!</button>
+									 <button class="btn btn-dark" type="reset">Reset</button>
+
+									 <div id="showAnswers">
+									 </div>
+									</form>
+								</div> <!-- column -->
+							</div> <!-- row -->
+						</div> <!-- container -->
+						<script src="js/jquery.slim.min.js"></script>
+						<script src="js/popper.min.js"></script>
+						<script src="js/bootstrap.min.js"></script>
+						<script src="js/form_processor.js"></script>
+					</body>
+</html>
